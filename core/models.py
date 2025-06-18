@@ -19,5 +19,6 @@ class livros(models.Model):
     def __str__(self):
         """representação em string do modelo"""
         return str(self.livro)
+    #
     
     
